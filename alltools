@@ -1,0 +1,130 @@
+Enumeration 
+	shared folders 
+	netbios enumerator to find netbios enumeration
+	snmp-check is used to find hostnames and no.of user accounts
+	snmp enumeration softperfect network scanner
+	nmap is also used to enumerate snmp 
+	LDAP enumeration using active directory explorer to find domain controllers machine ip 	and also used to find user details 
+	ldapsearch is used to perform ldap enumeration and obtain more info on primary domain
+	NFS Enumeration using RPCScan and SuperEnum to find port nfs service 
+	DNS enumeration is used to mail addr for the domains 
+	nmap is  to perform DNS enumeration to gather the list of all the available DNS
+	Nmap to perform SMTP enumeration to enumerate the
+	list of all the possible mail users
+	Enum4linux is used to find the server type , platform id , relative identifier.
+	http-server-header can be found by nmap or telnet.
+
+
+
+vuln analysis 
+
+	Common Weakness Enumeration 
+	Common Vulnerabilities and Exposures
+	National Vulnerability Database
+	openvas is used to perform vuln severity score 
+	nessus  
+	GFI LanGuard and find the machine’s vulnerability level
+	nikto is used to scan webserver and web application vulnerabilities 
+
+system hacking 
+
+	responder tool to find ntlm hash for the given user
+	l0phtCrack is used in windows machine and it can be used find another user passwd
+	Armitage tool from the attacker’s machine to exploit vulnerabilities on the target 	system
+	msfvenom tool on the attacker’s machine to create a backdoor and exploit the 	target machine to gain an MSF interactive shell
+	Metasploit inbuilt Mimikatz module which is also known as kiwi to dump Hashes 	from Windows 
+
+
+malware threats 
+	
+	njrat trojan is used to make RAT to gain control over victim machine(default port=5552 )
+	SwayzCryptor to encrypt the Trojan and makes file undetectable 	
+	Theef RAT Trojan to control the victim machine remotely (default port = 6703 )
+	Analyze malware using online Hybrid Analysis services
+	Detect It Easy is used to detect compiler, linker, packer ...
+	Dependency Walker tool to analyze the executable also is used to exe files and identify 	the file dependencies of the executable file
+	the IDA tool to analyze the file to find subroutine function identified by IDA
+	Ghidra is used to perform malware disassembly and compiler id 
+
+
+
+sniffing 
+	
+	 macof on the Parrot Security machine to perform MAC flooding (default size of ip packets = 54)
+	arpspoof is used perform an arp posining attack 
+	cain and abel is to perform an MITM attack to sniff traffic,arp poisiong
+	SMAC tool to spoof the MAC address of the machine
+	Wireshark tool to perform password sniffing Wireshark display filter shows HTTP POST traffic (http.request.method == POST)
+
+
+
+Social Engineering
+	Social-Engineer Toolkit (SET) is used to sniff a user creds 
+	Netcraft identifies any site as a phishing website
+
+
+	
+Dos 
+	Metasploit to perform a SYN flooding attack (auxiliary/dos/tcp/synflood)
+	Raven-storm tool to perform a DoS attack
+
+
+
+Session Hijacking
+
+	Zed Attack Proxy (ZAP) tool to hijack a session established when a user on the victim machine
+	Hetty tool to intercept HTTP traffic to password that was captured in Hetty tool by intercepting traffic 
+
+	
+
+Hacking Web Servers
+	
+	the Ghost Eye information-gathering tool to gather information about the website
+	http recon is used to recon of the website 
+	Footprint the domain using the ID Serve tool and identify the webserver application used to host the webpages 
+	uniscan tool is used to webserver footprinting on a wamp server 
+	hydra tool is used bruteforce FTP server 
+
+
+	
+Web Applications
+	nmap port and service discovery ,banner grabbing 
+	what web tool to perform footprinting 
+	web spidering on website using OWASP ZAP
+	the Gobuster tool to identify web-server directories on the website
+	the dig command to detect the load balancers on the website
+	bruteforcing using burp 
+	Burp Suite to perform parameter tampering on the website
+	the PwnXSS tool to scan the target website for cross-site scripting (XSS) vulnerability
+	the WPScan tool to perform a cross-site request forgery,enumerate usernames on WordPress website
+	Perform command-line execution on a vulnerability
+	Gain backdoor access by exploiting Log4j vulnerability on an application 
+	Detect web application vulnerabilities using N-Stalker Web Application Security Scanner
+
+
+	
+SQL Injection
+	Use the sqlmap tool to perform an SQL injection attack on the website
+	DSSS tool to detect SQL injection vulnerabilities in a web application
+ 	OWASP ZAP to test a web application for SQL injection vulnerabilities
+
+
+CRYPTO 
+	HashCalc to find the hash value of the file
+	MD5 Calculator to find the MD5 hash value of the file
+	CryptoForge to encrypt the file
+	BCTextEncoder tool to encrypt and decrypt data of your choice
+	RMail to encrypt email messages
+	disk encryption using Rohos
+
+
+steganography 
+
+  snow - for hiding and hidden data from text file 
+  openstego - hiding and exatracting data from a file 
+  covert tcp - for hiding data on tcp/ip headers 
+  
+
+mobile hacking 
+
+      phonesploit through adb
