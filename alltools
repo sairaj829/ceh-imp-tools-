@@ -3,10 +3,12 @@ Enumeration
 	netbios enumerator to find netbios enumeration
 	snmp-check is used to find hostnames and no.of user accounts
 	snmp enumeration softperfect network scanner
+	rdp in 3389
+	nmap -A -sV ip
 	nmap is also used to enumerate snmp 
-	LDAP enumeration using active directory explorer to find domain controllers machine ip 	and also used to find user details 
-	ldapsearch is used to perform ldap enumeration and obtain more info on primary domain
-	NFS Enumeration using RPCScan and SuperEnum to find port nfs service 
+	LDAP enumeration using active directory explorer to find domain controllers machine ip 	and also used to find user details Server2022
+	ldapsearch is used to perform ldap enumeration and obtain more info on primary domain CEH
+	NFS Enumeration using RPCScan and SuperEnum to find port nfs service .com
 	DNS enumeration is used to mail addr for the domains 
 	nmap is  to perform DNS enumeration to gather the list of all the available DNS
 	Nmap to perform SMTP enumeration to enumerate the
@@ -21,7 +23,7 @@ vuln analysis
 	Common Weakness Enumeration 
 	Common Vulnerabilities and Exposures
 	National Vulnerability Database
-	openvas is used to perform vuln severity score 
+	openvas is used to perform vuln severity score sudo -E -u _gvm gvmd --user=admin --new-password=admin
 	nessus  
 	GFI LanGuard and find the machine’s vulnerability level
 	nikto is used to scan webserver and web application vulnerabilities 
@@ -39,7 +41,7 @@ malware threats
 	
 	njrat trojan is used to make RAT to gain control over victim machine(default port=5552 )
 	SwayzCryptor to encrypt the Trojan and makes file undetectable 	
-	Theef RAT Trojan to control the victim machine remotely (default port = 6703 )
+	Theef RAT Trojan to control the victim machine remotely (default port = 9871,6703 )
 	Analyze malware using online Hybrid Analysis services
 	Detect It Easy is used to detect compiler, linker, packer ...
 	Dependency Walker tool to analyze the executable also is used to exe files and identify 	the file dependencies of the executable file
@@ -116,7 +118,7 @@ CRYPTO
 	BCTextEncoder tool to encrypt and decrypt data of your choice
 	RMail to encrypt email messages
 	disk encryption using Rohos
-
+	veracrypt
 
 steganography 
 
