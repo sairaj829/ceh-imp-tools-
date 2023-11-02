@@ -4,7 +4,7 @@ Enumeration
 	snmp-check is used to find hostnames and no.of user accounts
 	snmp enumeration softperfect network scanner
 	rdp in 3389
-	nmap -A -sV ip
+	nmap -A -sV ip or nmap -p 389 -iL -sV -Pn ip
 	nmap is also used to enumerate snmp 
 	LDAP enumeration using active directory explorer to find domain controllers machine ip 	and also used to find user details Server2022
 	ldapsearch is used to perform ldap enumeration and obtain more info on primary domain CEH
