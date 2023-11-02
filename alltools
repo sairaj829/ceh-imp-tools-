@@ -130,3 +130,8 @@ steganography
 mobile hacking 
 
       phonesploit through adb
+3 
+ip
+4
+9
+sudo -E -u _gvm gvmd --user=admin --new-password=admin
